@@ -1,0 +1,81 @@
+{
+    "earthlyThingsList": [
+        {
+            "type": "Animal",
+            "continents": ["South America"],
+            "name": "Capybara",
+            "isObject": false,
+            "description": "The capybara is a giant cavy rodent native to South America; it is the largest living rodent.",
+            "image": {
+                "url": "https://www.ozarksfirst.com/wp-content/uploads/sites/65/2022/10/Dickerson-Park-Zoo-welcomes-a-litter-of-capybara-pups-2.jpg",
+                "caption": "Capybara mother tending to young"
+            }
+        },
+        {
+            "type": "Monument",
+            "continents": ["Europe"],
+            "name": "Stonehenge",
+            "isObject": true,
+            "description": "Prehistoric monument on Salisbury Plain in Wiltshire, England",
+            "image": {
+                "url": "https://imgs.search.brave.com/A7IypSKaYWn_Lf687orjJKnrxvLIL6ZcqYu-l1hNEg4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMyLm1pbnV0ZW1l/ZGlhY2RuLmNvbS9p/bWFnZS91cGxvYWQv/Y19jcm9wLGhfMjgx/MCx3XzUwMDAseF8w/LHlfMjYxL3YxNTU0/Njk5NzMxL3NoYXBl/L21lbnRhbGZsb3Nz/L2lzdG9jay0xNzUz/ODU0MTQuanBnP2l0/b2s9VzE4dlZ6S2o",
+                "caption": "View of Stonehenge"
+            }
+        },
+        {
+            "type": "Building",
+            "continents": ["Asia"],
+            "name": "Burj Khalifa",
+            "isObject": true,
+            "description": "The Burj Khalifa is a mixed-use skyscraper located in Dubai, U.A.E., known for being the world's tallest building.",
+            "image": {
+                "url": "http://vizts.com/wp-content/uploads/2015/12/beautiful-view-of-burj-khalifa.jpg",
+                "caption": "Burj Khalifa towering over Dubai skyline"
+            }
+        },
+        {
+            "type": "Animal",
+            "continents": ["Africa"],
+            "name": "Giraffe",
+            "isObject": false,
+            "description": "Giraffes are the tallest living terrestrial animal, and the largest ruminant on earth.",
+            "image": {
+                "url": "https://images.ctfassets.net/81iqaqpfd8fy/3r4flvP8Z26WmkMwAEWEco/870554ed7577541c5f3bc04942a47b95/78745131.jpg",
+                "caption": "Giraffe standing"
+             }
+        },
+        {
+            "type": "Building",
+            "continents": ["Africa"],
+            "name": "Great Pyramid of Giza",
+            "isObject": true,
+            "description": "The Great Pyramid of Giza is the largest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu.",
+            "image": {
+                "url": "https://imgs.search.brave.com/k_uSTjOmMMrxBxKwMwzTke96xBShiiTBiDluCzBQZj8/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9tZWRp/YS5hcmNoaXRlY3R1/cmFsZGlnZXN0LmNv/bS9waG90b3MvNTlm/YzlhMTdmMDUxMWQx/ODZkOTIxMDJmL21h/c3Rlci9wYXNzL0dy/ZWF0JTIwUHlyYW1p/ZCUyMG9mJTIwR2l6/YSUyMDEuanBn",
+                "caption": "Ground level view of the great pyramid"
+            }
+        },
+        {
+            "type": "Building",
+            "continents": ["Asia"],
+            "name": "Taipei 101",
+            "isObject": true,
+            "description": "Building was officially classified as the world's tallest from its opening in 2004 until the 2009 completion of the Burj Khalifa in Dubai, UAE.",
+            "image": {
+                "url": "https://img.theculturetrip.com/450x/smart/wp-content/uploads/2017/01/taipei_101_from_afar.jpg",
+                "caption": "Taipei 101"
+            }
+        },
+        {
+            "type": "Animal",
+            "continents": ["North America", "South America"],
+            "name": "Puma",
+            "isObject": false,
+            "description": "The puma is a large cat whose range spans from the Canadian Yukon to the southern Andes in South America; it is the most widespread of any large wild terrestrial mammal in the Western Hemisphere.",
+            "image": {
+                "url": "https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2023/01/DD8A1E46-EFA9-4DC1-98AF-9A908C4BF8A6-e1677260627243-1280x640.jpeg",
+                "caption": "Puma overlooking possible prey"
+             }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+$feature-flags: (
+  enable-css-custom-properties: true,
+);
+
+@import "@carbon/type/scss/reset"; //Used in conjuction with carbon--type-reset()
+@import "@carbon/colors/scss/colors"; // Import carbon colors SASS variables
+@import "~carbon-components/scss/globals/scss/vars";
+@import "~carbon-components/scss/globals/scss/typography";
+@import "~@carbon/ibm-cloud-cognitive/css/index-full-carbon.css";
+
+@include carbon--type-reset(); // Normalize typography on all browsers
+
+
+.tearsheet-example__dummy-content-block {
+    padding: $spacing-06 $spacing-07;
+}
+  
+.tearsheet-example__dummy-content-block-main-content {
+width: 100%;
+height: 100%;
+background-color: $ui-background;
+}
+
+.tearsheet-example__tabs .bx--tab-content {
+display: none;
+}
+
+.nodeInfoContainer {
+    display: block;
+    padding: 5px;
+    border: 10px sold gray;
+    background-color: sandybrown;
+
+    box-sizing: content-box;
+
+    li {
+        list-style-type: circle;
+     }
+
+     span {
+        font-weight: bold;
+        margin-right: 4px;
+     }
+}
+
+svg:global(.bx--text-input__readonly-icon) {
+    display: none;
+}
+
+:global(.c4p--tearsheet .c4p--tearsheet__right) {
+    width: 100% !important;
+}
+:global(a.bx--side-nav__link[aria-current=page]) {
+    background-color: $hover-selected-ui;
+}
+:global(a.bx--side-nav__link[aria-current=page] .bx--side-nav__link-text) {
+    color: $text-01;
+}
+:global(a.bx--side-nav__link > .bx--side-nav__link-text) {
+    color: $text-01;
+}
+
+:global(.exp--tearsheet.exp--tearsheet--wide .exp--tearsheet__content) {
+    background-color: $ui-background;
+}
